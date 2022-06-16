@@ -1,0 +1,21 @@
+@import "custom";
+@import "nav";
+@import "var";
+@import "tabs";
+@import "typography";
+@import "cards";
+@import "carousel";
+@import "language";
+@import "footer";
+@import "mixins";
+@import "offer";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+html{
+    font-family: 'Open Sans', sans-serif !important;
+}
+.breadcrumb
+{
+    font-size: 0.8rem;
+}

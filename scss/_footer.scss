@@ -1,0 +1,48 @@
+@import "var";
+@import "typography";
+@import "mixins";
+
+#footer{
+    .socialIcons{
+        color: $lightGrey;
+        text-decoration: none;
+    }
+    .footerTitles{
+        color:$black;
+        font-family: "Giorgio";
+        font-size: 1.5rem;
+    }
+    a {
+        font-family: 'Open Sans', sans-serif !important;
+        text-decoration: none;
+    }
+    .copyRight{
+        font-size: .6rem;
+    }
+}
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgba($red,0.6);
+    color: $black;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10%;
+    font-family: 'Open Sans', sans-serif !important;
+    @include transition(opacity .6s);
+    opacity: 0.5;
+  }
+  
+  #myBtn:hover {
+    background-color: $yellow;
+    @include transition(opacity .6s);
+    opacity: 1;
+  }

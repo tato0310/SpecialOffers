@@ -1,0 +1,41 @@
+@import "var";
+
+.nav-tabs {
+  border-bottom: $nav-tabs-border-width solid $nav-tabs-border-color;
+
+  .nav-link {
+    margin-bottom: -$nav-tabs-border-width;
+    margin-right: 5px;
+    background: #FA5454;
+    color: black;
+    border: $nav-tabs-border-width solid transparent;
+    @include border-top-radius($nav-tabs-border-radius);
+
+    &:hover,
+    &:focus {
+      border-color: $nav-tabs-link-hover-border-color;
+      // Prevents active .nav-link tab overlapping focus outline of previous/next .nav-link
+      isolation: isolate;
+    }
+
+    &.disabled {
+      color: $nav-link-disabled-color;
+      background-color: transparent;
+      border-color: transparent;
+    }
+  }
+#tabs{
+  h1{
+    font-family: "Giorgio" !important;
+  }
+}
+
+  @media (max-width: 900px) {
+    .nav-link {
+      font-size: 1rem;
+      margin-top: 1px;
+      width: 100%;
+      border: thin $white solid;
+    }
+  }
+}

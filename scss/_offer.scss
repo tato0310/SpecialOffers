@@ -1,0 +1,97 @@
+@import "var";
+@import "mixins";
+
+.goldCrown{
+    font-size: 1rem;
+    color:$gold;
+}
+.cartIcon
+{
+    color: $tide;
+}
+.travelIcon{
+    color:rgba($darkBlue, 0.8);
+}
+.legalIcon{
+    color: $yellow;
+    }
+    .closeIcon{
+        cursor: pointer;
+        color: $white;
+    }
+    
+.textExpire{
+    font-size: .6rem;
+    color: $red;
+}
+.textInfo
+{
+    font-size: .8rem;
+    color: $lightGrey;
+}
+
+.dateBlockedIcon{
+    color: rgba($red,0.8);
+}
+
+.terminos{
+    font-size: 0.7;
+    text-decoration: none;
+}
+
+
+.modal-content
+{
+    background-color: rgba($white,0.8);
+    color: $black;
+}
+.modal-body
+{
+    font-size: .8rem;
+}
+
+.btn-danger
+{
+    background-color: $red;
+}
+
+.acknowledgments{
+    width: 50px;
+}
+
+.hide{
+    display: none;
+}
+
+
+#modal{
+    a{
+        color: $white;
+    }
+    a:hover{
+        color: $red;
+    }
+}
+
+/*gallery*/
+#carouselOffer{
+.carousel-inner > .item {
+    position: relative;
+    display: none;
+    @include transition(0.3s ease-in-out left);
+}
+.carousel-item{
+    img{
+        width: 200px;
+max-width: 550px;
+    }
+    
+}
+  
+  @media (max-width: 800px) {
+    .text_align_center_mobile {
+        text-align: center;
+        align-items: center;
+    }
+  }
+}

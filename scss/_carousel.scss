@@ -1,0 +1,36 @@
+@import "var";
+@import "typography";
+
+#carousel{
+    h5{
+        font-family: "Giorgio";
+    color: $black;
+    font-size: 4rem;
+    text-transform: uppercase;
+    @media (max-width: 900px) {
+        font-size: 3em;
+      }
+    }
+    p{
+        color: $black;
+        font-family: 'Open Sans', sans-serif !important;
+        font-size: 2rem;
+        @media (max-width: 900px) {
+            font-size: 1em;
+          }
+    }
+    .btn-primary{
+        background-color: $orange;
+    }
+    
+}
+
+.carousel .item img {
+    max-height: 300px;
+    min-width: auto;
+  }
+
+  .carousel-indicators{
+      color: $black;
+  }
+
