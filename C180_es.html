@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- In loving memory CDS -->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/imgs/favicon.ico" type="image/x-icon">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- ********** CHANGE TITLE ON EVERY RESORT ********** -->
+    <title>Grand Sirenis Riviera Maya Resort &amp; Spa</title>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i> Top</button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/imgs/RCI Logo.svg" alt="" width="100">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">DESCUBRE RCI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Hoteles y Ofertas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Reg&iacute;strate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#offers">Resort Deals</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <ul class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Portugu&ecirc;s</a>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section id="gallery&info">
+        <div class="cotainer">
+            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+                aria-label="breadcrumb">
+                <ol class="breadcrumb px-3 py-2">
+                    <li class="breadcrumb-item"><a href="index_sp.html#tabs">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                        <script>
+                            var x = document.title;
+              // alert(x);
+                        </script>
+                        <span id="resort">
+                            <script>
+                                document.write(document.title)
+                            </script>
+                        </span>
+                    </li>
+                </ol>
+            </nav>
+
+            <div class="row">
+
+                <div class="col-lg-6 col-sm-12 px-5 col-xl-6" id="carouselOffer">
+                    <!-- gallery -->
+                    <!-- *************  only 4 images ************** -->
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"
+                        data-interval="300">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <!-- exterior -->
+                                <img src="https://www.rci.com/static/Resorts/Assets/C180E01L.jpg" class="d-block w-100"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <!-- interior -->
+                                <img src="https://www.rci.com/static/Resorts/Assets/C180I02L.jpg" class="d-block w-100"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <!-- habitacion -->
+                                <img src="https://www.rci.com/static/Resorts/Assets/C180O01L.jpg" class="d-block w-100"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <!-- playa o alberca -->
+                                <img src="https://www.rci.com/static/Resorts/Assets/C180O06L.jpg" class="d-block w-100"
+                                    alt="...">
+                            </div>
+
+                        </div>
+
+                        </button>
+                    </div>
+                    <!-- end gallery -->
+                </div>
+                <div class="col-lg-6 col-sm-12 text_align_center_mobile col-xl-6">
+                    <div class="row">
+                        <span id="resort" class="display-6">
+                            <p>
+                                <script>
+                                    document.write(document.title);
+                                </script>
+                            </p>
+                        </span><span class="resortId">#C180</span>
+                    </div>
+
+                    <div class="row">
+                        <p> <i class="fas fa-map-marked-alt iconIndicator px-2" title="Hubicación"></i>
+                            <i data-tooltip="Hubicación" class="top">Akumal, Quintana Roo M&eacute;xico</i>
+                        </p>
+                    </div>
+
+                    <div class="row">
+                        <span class="textInfo">Fecha de compra</span>
+                        <p> <i class="fa-solid fa-cart-shopping cartIcon px-2" title="Fecha de compra"></i>
+                            <i data-tooltip="Fecha de compra" class="top">7/1/2022 - 9/30/2022</i>
+                        </p>
+                    </div>
+                    <div class="row">
+                        <span class="textInfo">Fecha de viaje</span>
+                        <p> <i class="fa-solid fa-person-walking-luggage travelIcon px-2" title="Fecha de viaje"></i>
+                            <i data-tooltip="Fecha de viaje" class="top">7/1/2022 - 3/31/2023</i>
+                        </p>
+                    </div>
+                    <!-- <div class="row">
+                        <span class="textInfo">Fechas bloqueadas</span>
+                        <p> <i class="fa-solid fa-hand dateBlockedIcon px-2 py-2" style="vertical-align: top;"
+                                title="Fecha de viaje"></i>
+                            <i data-tooltip="Fechas de bloqueo" class="top">
+                                24/12/2022 - 31/12/2022
+                            </i>
+                        </p>
+                    </div> -->
+                    <div class="row">
+                        <p>
+                            <i class="fa-solid fa-scale-balanced legalIcon"></i>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#myModal"
+                                data-tooltip="Términos y condiciones" class="top terminos">
+                                <i>T&eacute;rminos y condiciones</i>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="row pb-4">
+                        <a href=""><button type="button" class="btn btn-yellow">ver disponibilidad</button></a>
+                    </div>
+                    <div class="row" style="font-size: 1.3rem;">
+                        <p>
+                            35% de descuento en tarifas del plan todo incluido.<br>
+                            Adem&aacute;s, ni&ntilde;os de 7 a 16 a&ntilde;os reciben 50% de descuento sobre la tarifa
+                            est&aacute;ndar.<br>
+                            Hasta 2 ni&ntilde;os menores de 6 a&ntilde;os se hospedan gratis.<br>
+                            Se incluye transporaci&oacute;n de ida y vuelta al aeropuerto.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- The Modal -->
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">T&eacute;rminos y condiciones</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <!-- ********** TERMINOS Y CONDICIONES MODAL *********** -->
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        Se debe pagar por adelantado las tarifas del plan todo incluido dentro de los 15 d&iacute;as
+                        posteriores a la reservaci&oacute;n. Se requiere un m&iacute;nimo de 7 noches para obtener la
+                        promoci&oacute;n completa. Un m&aacute;ximo de cuatro estudios o dos de 1 habitaci&oacute;n para
+                        la tarifa promocional. Los ni&ntilde;os de 0 a 6 a&ntilde;os se hospedan gratis con 2 adultos
+                        pagando, m&aacute;ximo 2 ni&ntilde;os.Para prepagar el plan todo incluido env&iacute;a un mail
+                        a: rcipromo@ultimateleisureclub.com. Desde M&eacute;xico llama al: 800-611-0263<br>
+                        <br>
+                        Transportaci&oacute;n terrestre de ida y vuelta de cortes&iacute;a desde el aeropuerto, por
+                        membres&iacute;a RCI y no por unidad, hasta para 6 personas. Para coordirnar la
+                        transportaci&oacute;n, env&iacute;a un mail a: transfers.mx@ultimateleisureclub.com.
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <section id="footer">
+            <!-- Footer -->
+            <footer class="text-center text-lg-start bg-light text-muted">
+                <!-- Section: Social media -->
+                <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                    <!-- Left -->
+                    <div class="me-5 d-none d-lg-block">
+                        <span>Continúa en contacto con nosotros:</span>
+                    </div>
+                    <!-- Left -->
+
+                    <!-- Right -->
+                    <div>
+                        <a href="https://www.facebook.com/RCILatinoamerica" class="me-4 socialIcons">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="https://instagram.com/rcilatinoamerica?igshid=YzAyZWRlMzg=" class="me-4 socialIcons">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="me-4 socialIcons">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                    </div>
+                    <!-- Right -->
+                </section>
+                <!-- Section: Social media -->
+
+                <!-- Section: Links  -->
+                <section class="">
+                    <div class="container text-center text-md-start mt-5">
+                        <!-- Grid row -->
+                        <div class="row mt-3">
+                            <!-- Grid column -->
+                            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                                <!-- Content -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    <img src="assets/imgs/RCI Logo.svg" alt="" width="100">
+                                </h6>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4 footerTitles">
+                                    Ayuda
+                                </h6>
+                                <p>
+                                    <a href="https://support.rci.com/hc/es-mx?track1=Footer_Prelogin&track2=Ayuda&track3=Secci%C3%B3n"
+                                        class="text-reset">Secci&oacute;n de Ayuda</a>
+                                </p>
+                                <p>
+                                    <a href="https://support.rci.com/hc/es-mx/sections/360004424651-FORMULARIOS?track1=Footer_Prelogin&track2=Ayuda&track3=Formularios"
+                                        class="text-reset">Formularios</a>
+                                </p>
+                                <p>
+                                    <a href="https://www.rci.com/pre-rci-es_MX/footer/contactenos.page?track1=Footer_Prelogin&track2=Ayuda&track3=Contacto"
+                                        class="text-reset">Contacto</a>
+                                </p>
+                                <p>
+                                    Usamos cookies para poder darte una mejor experiencia al visitar nuestro sitio, al
+                                    continuar
+                                    utiliz&aacute;ndolo est&aacute;s dando consentimiento a nuestro uso de &eacute;stas.
+                                    Para saber
+                                    m&aacute;s sobre c&oacute;mo utilizamos las cookies y c&oacute;mo manejarlas visita
+                                    nuestro Aviso de
+                                    Privacidad.
+                                </p>
+
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4 footerTitles">
+                                    Recursos
+                                </h6>
+                                <p>
+                                    <a href="https://www.rci.com/pre-rci-es_MX/footer/alerta-a-los-socios.page?track1=Footer_Prelogin&track2=Recursos&track3=Alerta"
+                                        class="text-reset">Alerta a Socios</a>
+                                </p>
+                                <p>
+                                    <a href="https://www.rci.com/pre-rci-es_MX/footer/terminos-y-condiciones-de-su-membresia.page?track1=Footer_Prelogin&track2=Recursos&track3=Terminos"
+                                        class="text-reset">Términos y Condiciones</a>
+                                </p>
+                                <p>
+                                    <a href="https://www.rci.com/static/docs/latam/footer/termino-condiciones-de-uso.pdf?track1=Footer_Prelogin&track2=Recursos&track3=Uso"
+                                        class="text-reset">Términos de Uso</a>
+                                </p>
+                                <p>
+                                    <a href="https://www.rci.com/static/docs/latam/footer/aviso-de-privacidad-2021.pdf?track1=Footer_Prelogin&track2=Recursos&track3=Aviso"
+                                        class="text-reset">Aviso de Privacidad</a>
+                                </p>
+                                <p>
+                                    <a href="http://rciaffiliates.com/latin-america/es/?track1=Footer_Prelogin&track2=Recursos&track3=Info"
+                                        class="text-reset">Información para Resorts</a>
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4 footerTitles">
+                                    CON&Eacute;CTATE CON NOSOTROS
+                                </h6>
+                                <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                                <p>
+                                    <i class="fas fa-envelope me-3"></i>
+                                    info@example.com
+                                </p>
+                                <p><i class="fas fa-phone me-3"></i> Llamando desde M&eacute;xico Weeks: 55 5283 1111
+                                </p>
+                                <p><i class="fas fa-phone me-3"></i> Llamando desde Argentina Weeks: 0800 666 2724</p>
+                                <p><i class="fas fa-phone me-3"></i> Llamando desde Colombia: 01800 754 1660</p>
+
+                            </div>
+                            <!-- Grid column -->
+                        </div>
+                        <!-- Grid row -->
+                    </div>
+                </section>
+                <!-- Section: Links  -->
+
+                <!-- Copyright -->
+                <div class="text-center p-4 copyRight" style="background-color: rgba(0, 0, 0, 0.05);">
+                    Todo el material publicado en esta p&aacute;gina es propiedad de RCI LATINOAMERICA S.A. Todos los
+                    derechos
+                    reservados. Sitio Web propiedad controlada y operada por RCI, LLC.<br>
+                    &copy;<span id="year"></span> RCI Copyright
+                </div>
+                <!-- Copyright -->
+            </footer>
+            <!-- Footer -->
+        </section>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+        <script>
+            var triggerTabList = [].slice.call(document.querySelectorAll('#myTab a'))
+            triggerTabList.forEach(function (triggerEl) {
+                var tabTrigger = new bootstrap.Tab(triggerEl)
+
+                triggerEl.addEventListener('click', function (event) {
+                    event.preventDefault()
+                    tabTrigger.show()
+                })
+            })
+        </script>
+        <script>
+            AOS.init();
+        </script>
+        <script>
+            document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 500px from the top of the document, show the button
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+</body>
+
+</html>
