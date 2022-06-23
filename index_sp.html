@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- In loving memory CDS -->
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -10,593 +9,1228 @@
     <!-- aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Special Offers</title>
-</head>
-
-<body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i> Top</button>
+  </head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fa-solid fa-arrow-up"></i> Top </button>
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="assets/imgs/RCI Logo.svg" alt="" width="100">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">DESCUBRE RCI</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Hoteles y Ofertas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Reg&iacute;strate</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#offers">Resort Deals</a>
-                    </li>
-
-                </ul>
-                <form class="d-flex">
-                    <ul class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Portugu&ecirc;s</a>
-                    </ul>
-                </form>
-            </div>
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/imgs/RCI Logo.svg" alt="" width="100">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">DESCUBRE RCI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Hoteles y Ofertas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Reg&iacute;strate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#offers">Resort Deals</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <ul class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Portugu&ecirc;s</a>
+            </ul>
+          </form>
         </div>
+      </div>
     </nav>
     <div class="container">
-        <section id="carousel">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="assets/imgs/carousel/europe-roadtrip.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption">
-                            <h5>VIAJA CON LA MEMBRESÍA MÁS TOP</h5>
-                            <button type="button" class="btn btn-primary">Encuentra tu hotel</button>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="assets/imgs/carousel/road-trip-travel-insurance.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption">
-                            <h5>oferta 2</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="assets/imgs/carousel/shutterstock_358226087-compressor.webp" class="d-block w-100"
-                            alt="...">
-                        <div class="carousel-caption">
-                            <h5>oferta 3</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+      <section id="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/imgs/carousel/europe-roadtrip.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption">
+                <h5>VIAJA CON LA MEMBRESÍA MÁS TOP</h5>
+                <button type="button" class="btn btn-primary">Encuentra tu hotel</button>
+              </div>
             </div>
-        </section>
+            <div class="carousel-item">
+              <img src="assets/imgs/carousel/road-trip-travel-insurance.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption">
+                <h5>oferta 2</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/imgs/carousel/shutterstock_358226087-compressor.webp" class="d-block w-100" alt="...">
+              <div class="carousel-caption">
+                <h5>oferta 3</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
     </div>
     <section id="promos">
-        <div class="container">
-            <div class="row">
-                <div class="row mt-5">
-                    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3">
-                        <div class="card shadow">
-                            <img src="assets/imgs/col1.jpg" class="card-img-top" alt="...">
-
-                            <h5 class="card-title px-3 py-2">RENUEVA AHORA</h5>
-
-                            <div class="px-2">
-                                <p> Y planifica tus pr&oacute;ximos viajes alrededor del mundo.
-                                </p>
-
-                            </div>
-                            <div class="d-grid gap-2 d-md-block py-2 px-2">
-                                <button class="btn btn-yellow" type="button">Renovar</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3">
-                        <div class="card shadow">
-                            <img src="assets/imgs/col2.jpg" class="card-img-top" alt="...">
-                            <h5 class="card-title px-3 py-2">Membresía más TOP</h5>
-                            <div class="px-2">
-                                <p> Con <b>Platinum</b> explora destinos exclusivos disfruta de m&aacute;s beneficios y
-                                    oportunidades.
-                                </p>
-
-                            </div>
-                            <div class="d-grid gap-2 d-md-block py-2 px-2">
-                                <button class="btn btn-yellow" type="button">saber m&aacute;s</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3">
-                        <div class="card shadow">
-                            <img src="assets/imgs/col3.jpg" class="card-img-top" alt="...">
-                            <h5 class="card-title px-2 py-2">SAL DE LA RUTINA</h5>
-                            <div class="px-2">
-                                <p> Con NIGHTS visita destinos exclusivos, elige entre <b>m&aacute;s de 600.000
-                                        hoteles.</b>
-                                </p>
-
-                            </div>
-                            <div class="d-grid gap-2 d-md-block py-2 px-2">
-                                <button class="btn btn-yellow" type="button">viaja con nights</button>
-                            </div>
-                        </div>
-                    </div>
-
+      <div class="container">
+        <div class="row">
+          <div class="row mt-5">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3">
+              <div class="card shadow">
+                <img src="assets/imgs/col1.jpg" class="card-img-top" alt="...">
+                <h5 class="card-title px-3 py-2">RENUEVA AHORA</h5>
+                <div class="px-2">
+                  <p> Y planifica tus pr&oacute;ximos viajes alrededor del mundo. </p>
                 </div>
+                <div class="d-grid gap-2 d-md-block py-2 px-2">
+                  <button class="btn btn-yellow" type="button">Renovar</button>
+                </div>
+              </div>
             </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3">
+              <div class="card shadow">
+                <img src="assets/imgs/col2.jpg" class="card-img-top" alt="...">
+                <h5 class="card-title px-3 py-2">Membresía más TOP</h5>
+                <div class="px-2">
+                  <p> Con <b>Platinum</b> explora destinos exclusivos disfruta de m&aacute;s beneficios y oportunidades. </p>
+                </div>
+                <div class="d-grid gap-2 d-md-block py-2 px-2">
+                  <button class="btn btn-yellow" type="button">saber m&aacute;s</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3">
+              <div class="card shadow">
+                <img src="assets/imgs/col3.jpg" class="card-img-top" alt="...">
+                <h5 class="card-title px-2 py-2">SAL DE LA RUTINA</h5>
+                <div class="px-2">
+                  <p> Con NIGHTS visita destinos exclusivos, elige entre <b>m&aacute;s de 600.000 hoteles.</b>
+                  </p>
+                </div>
+                <div class="d-grid gap-2 d-md-block py-2 px-2">
+                  <button class="btn btn-yellow" type="button">viaja con nights</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <section id="tabs">
-        <!-- tabs names -->
-        <div class="container my-5">
-            <h1 id="offers" class="mb-sm-0 pb-4">Resort Deals</h1>
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs flex-column flex-sm-row">
-                <li class="nav-item">
-                    <button class="flex-sm-fill text-sm-center nav-link active" id="home-tab" data-bs-toggle="tab"
-                        data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Noches
-                        <b>GRATIS</b></button>
-                </li>
-                <li class="nav-item">
-                    <button class="flex-sm-fill text-sm-center nav-link" id="profile-tab" data-bs-toggle="tab"
-                        data-bs-target="#ai" type="button" role="tab" aria-controls="profile" aria-selected="false">
-                        <b>Descuentos</b></button>
-                </li>
-                <li class="nav-item">
-                    <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#kids" type="button"
-                        role="tab" aria-controls="messages" aria-selected="false">Niños
-                        <b>GRATIS</b></button>
-                </li>
-                <li class="nav-item">
-                    <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#credits"
-                        type="button" role="tab" aria-controls="messages" aria-selected="false">Resort
-                        <b>CREDITS</b></button>
-                </li>
-            </ul>
-
-            <!-- ofertas -->
-            <div class="tab-content">
-                <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                    <div class="container py-3">
-                        
-                        <!-- ************ NOCHES GRATIS *********** -->
-                        <!-- nombre de la oferta -->
-                        <h3 class="display-6">Noches gratis</h3>
-                        <!--fin nombre de la oferta -->
-                        <div class="row mt-5">
-                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in"
-                                data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
-                                <div class="card">
-                                    <img src="assets/imgs/col1.jpg" class="card-img-top" alt="...">
-                                    <span class="offername px-2 mt-2 mx-2">ATE 40% OFF</span>
-                                    <h5 class="card-title px-3 py-2">nas tarifas do Programa Tudo Incluído.</h5>
-                                    <div class="px-2">
-                                        <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Senator
-                                        Puerto Plata Spa
-                                        Resort <span class="resortId">#DO05</span>
-                                    </div>
-                                    <div class="px-2">
-                                        <p> <i class="fas fa-map-marked-alt iconIndicator px-2" title="Hubicación"></i>
-                                            <i data-tooltip="Hubicación" class="top">PUERTO PLATA,
-                                                República Dominicana</i>
-                                        </p>
-                                    </div>
-                                    <div class="d-grid gap-2 d-md-block py-2 px-2">
-                                        <a href="wholeOffer.html">
-                                            <button class="btn btn-red" type="button">conseguir oferta</button></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3">
-                                <div class="card">
-                                    <img src="assets/imgs/col2.jpg" class="card-img-top" alt="...">
-                                    <h5 class="card-title px-3 py-2">Card title</h5>
-                                    Lorem ipsum dolor sit amet,
-                                    <i data-tooltip="Top Tip" class="top">Demo - Top</i>
-                                    consectetur adipiscing elit.
-                                    <i data-tooltip="Bottom Tip" class="bottom">Demo - Bottom</i>
-                                    Ut fringilla placerat accumsan.
-                                    <i data-tooltip="Left Tip" class="left">Demo - Left</i>
-                                    Maecenas elit dui, consectetur nec justo id, accumsan vestibulum mi.
-                                    <i data-tooltip="Right Tip" class="right">Demo - Right</i>
-
-                                </div>
-                            </div>
-                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3">
-                                <div class="card">
-                                    <img src="assets/imgs/col3.jpg" class="card-img-top" alt="...">
-                                    <h5 class="card-title px-2 py-2">Card title</h5>
-                                </div>
-                            </div>
-
-                        </div>
+      <!-- tabs names -->
+      <div class="container my-5">
+        <h1 id="offers" class="mb-sm-0 pb-4">Resort Deals</h1>
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs flex-column flex-sm-row">
+          <li class="nav-item">
+            <button class="flex-sm-fill text-sm-center nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Noches <b>GRATIS</b>
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="flex-sm-fill text-sm-center nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#ai" type="button" role="tab" aria-controls="profile" aria-selected="false">
+              <b>Descuentos</b>
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#kids" type="button" role="tab" aria-controls="messages" aria-selected="false">Niños <b>GRATIS</b>
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#credits" type="button" role="tab" aria-controls="messages" aria-selected="false">Resort <b>CREDITS</b>
+            </button>
+          </li>
+        </ul>
+        <!-- ofertas -->
+        <div class="tab-content">
+          <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="container py-3">
+              <!-- ************ NOCHES GRATIS *********** -->
+              <!-- nombre de la oferta -->
+              <h3 class="display-6">Noches gratis</h3>
+              <!--fin nombre de la oferta -->
+              <div class="row mt-5">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/DQ14E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">1 noche </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 6 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Secrets St. Martin <span class="resortId">#DQ14</span>
                     </div>
-
-                </div>
-                <div class="tab-pane" id="ai" role="tabpanel" aria-labelledby="profile-tab">
-
-                    <div class="container py-3">
-                        
-                        <!-- ************ DESCUENTOS *********** -->
-                        <!-- nombre de la oferta -->
-                        <h3 class="display-6">Descuentos</h3>
-                        <!--fin nombre de la oferta -->
-                        <div class="row mt-5">
-                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in"
-                                data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
-                                <div class="card">
-                                    <img src="assets/imgs/col1.jpg" class="card-img-top" alt="...">
-                                    <span class="offername px-2 mt-2 mx-2">ATE 40% OFF</span>
-                                    <h5 class="card-title px-3 py-2">nas tarifas do Programa Tudo Incluído.</h5>
-                                    <div class="px-2">
-                                        <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Senator
-                                        Puerto Plata Spa
-                                        Resort <span class="resortId">#DO05</span>
-                                    </div>
-                                    <div class="px-2">
-                                        <p> <i class="fas fa-map-marked-alt iconIndicator px-2" title="Hubicación"></i>
-                                            <i data-tooltip="Hubicación" class="top">PUERTO PLATA,
-                                                República Dominicana</i>
-                                        </p>
-
-                                    </div>
-                                    <div class="d-grid gap-2 d-md-block py-2 px-2">
-                                        <button class="btn btn-red" type="button">conseguir oferta</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3">
-                                <div class="card">
-                                    <img src="assets/imgs/col2.jpg" class="card-img-top" alt="...">
-                                    <h5 class="card-title px-3 py-2">Card title</h5>
-                                    Lorem ipsum dolor sit amet,
-                                    <i data-tooltip="Top Tip" class="top">Demo - Top</i>
-                                    consectetur adipiscing elit.
-                                    <i data-tooltip="Bottom Tip" class="bottom">Demo - Bottom</i>
-                                    Ut fringilla placerat accumsan.
-                                    <i data-tooltip="Left Tip" class="left">Demo - Left</i>
-                                    Maecenas elit dui, consectetur nec justo id, accumsan vestibulum mi.
-                                    <i data-tooltip="Right Tip" class="right">Demo - Right</i>
-
-                                </div>
-                            </div>
-                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3">
-                                <div class="card">
-                                    <img src="assets/imgs/col3.jpg" class="card-img-top" alt="...">
-                                    <h5 class="card-title px-2 py-2">Card title</h5>
-                                </div>
-                            </div>
-
-                        </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Marigot, Saint Martin</i>
+                      </p>
                     </div>
-                </div>
-                <div class="tab-pane" id="kids" role="tabpanel" aria-labelledby="messages-tab">
-
-                    <div class="container py-3">
-                        
-                        <!-- ************ NIÑOS GRATIS *********** -->
-                        <!-- nombre de la oferta -->
-                        <h3 class="display-6">Niños gratis</h3>
-                        <!--fin nombre de la oferta -->
-                        <div class="row mt-5">
-                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in"
-                                data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
-                                <div class="card">
-                                    <img src="assets/imgs/col1.jpg" class="card-img-top" alt="...">
-                                    <span class="offername px-2 mt-2 mx-2">ATE 40% OFF</span>
-                                    <h5 class="card-title px-3 py-2">nas tarifas do Programa Tudo Incluído.</h5>
-                                    <div class="px-2">
-                                        <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Senator
-                                        Puerto Plata Spa
-                                        Resort <span class="resortId">#DO05</span>
-                                    </div>
-                                    <div class="px-2">
-                                        <p> <i class="fas fa-map-marked-alt iconIndicator px-2" title="Hubicación"></i>
-                                            <i data-tooltip="Hubicación" class="top">PUERTO PLATA,
-                                                República Dominicana</i>
-                                        </p>
-
-                                    </div>
-                                    <div class="d-grid gap-2 d-md-block py-2 px-2">
-                                        <button class="btn btn-red" type="button">conseguir oferta</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3">
-                                <div class="card">
-                                    <img src="assets/imgs/col2.jpg" class="card-img-top" alt="...">
-                                    <h5 class="card-title px-3 py-2">Card title</h5>
-                                    Lorem ipsum dolor sit amet,
-                                    <i data-tooltip="Top Tip" class="top">Demo - Top</i>
-                                    consectetur adipiscing elit.
-                                    <i data-tooltip="Bottom Tip" class="bottom">Demo - Bottom</i>
-                                    Ut fringilla placerat accumsan.
-                                    <i data-tooltip="Left Tip" class="left">Demo - Left</i>
-                                    Maecenas elit dui, consectetur nec justo id, accumsan vestibulum mi.
-                                    <i data-tooltip="Right Tip" class="right">Demo - Right</i>
-
-                                </div>
-                            </div>
-                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3">
-                                <div class="card">
-                                    <img src="assets/imgs/col3.jpg" class="card-img-top" alt="...">
-                                    <h5 class="card-title px-2 py-2">Card title</h5>
-                                </div>
-                            </div>
-
-                        </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="DQ14_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
                     </div>
+                  </div>
                 </div>
-                <div class="tab-pane" id="credits" role="tabpanel" aria-labelledby="settings-tab">
-
-                    <div class="container py-3">
-                        
-                        <!-- ************ RESORT CREDITS *********** -->
-                        <!-- nombre de la oferta -->
-                        <h3 class="display-6">Resort Credits</h3>
-                        <!--fin nombre de la oferta -->
-                        <div class="row mt-5">
-                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in"
-                                data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
-                                <div class="card">
-                                    <img src="assets/imgs/col1.jpg" class="card-img-top" alt="...">
-                                    <span class="offername px-2 mt-2 mx-2">ATE 40% OFF</span>
-                                    <h5 class="card-title px-3 py-2">nas tarifas do Programa Tudo Incluído.</h5>
-                                    <div class="px-2">
-                                        <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Senator
-                                        Puerto Plata Spa
-                                        Resort <span class="resortId">#DO05</span>
-                                    </div>
-                                    <div class="px-2">
-                                        <p> <i class="fas fa-map-marked-alt iconIndicator px-2" title="Hubicación"></i>
-                                            <i data-tooltip="Hubicación" class="top">PUERTO PLATA,
-                                                República Dominicana</i>
-                                        </p>
-
-                                    </div>
-                                    <div class="d-grid gap-2 d-md-block py-2 px-2">
-                                        <button class="btn btn-red" type="button">conseguir oferta</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3">
-                                <div class="card">
-                                    <img src="assets/imgs/col2.jpg" class="card-img-top" alt="...">
-                                    <h5 class="card-title px-3 py-2">Card title</h5>
-                                    Lorem ipsum dolor sit amet,
-                                    <i data-tooltip="Top Tip" class="top">Demo - Top</i>
-                                    consectetur adipiscing elit.
-                                    <i data-tooltip="Bottom Tip" class="bottom">Demo - Bottom</i>
-                                    Ut fringilla placerat accumsan.
-                                    <i data-tooltip="Left Tip" class="left">Demo - Left</i>
-                                    Maecenas elit dui, consectetur nec justo id, accumsan vestibulum mi.
-                                    <i data-tooltip="Right Tip" class="right">Demo - Right</i>
-
-                                </div>
-                            </div>
-                            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3">
-                                <div class="card">
-                                    <img src="assets/imgs/col3.jpg" class="card-img-top" alt="...">
-                                    <h5 class="card-title px-2 py-2">Card title</h5>
-                                </div>
-                            </div>
-
-                        </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/DX13E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">1 noche </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 6 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Breathless Cancún Soul <span class="resortId">#DX13</span>
                     </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Cancún, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="DX13_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
                 </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/DD17E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">1 noche </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 6 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Breathless Riviera Cancún <span class="resortId">#DD17</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Puerto Morelos, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="DD17_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/C926E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">1 noche </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 6 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Secrets the Vine <span class="resortId">#C926</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Cancún, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="C926_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/D830E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">1 noche </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 6 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Dreams Sands Cancun <span class="resortId">#D830</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Cancún, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="D830_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/DJ73E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">1 noche </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 6 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Dreams Vista Cancun <span class="resortId">#DJ73</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Cancún, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="DJ73_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/DP21E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">1 noche </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 6 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Dreams Natura <span class="resortId">#DP21</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Puerto Morelos, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="DP21_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/DE05E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">1 noche </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 6 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Dreams Playa Mujeres <span class="resortId">#DE05</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Playa Mujeres, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="DE05_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/D526E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">1 noche </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 6 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Sunscape Cozumel <span class="resortId">#D526</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Cozumel, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="D526_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/C862E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">2 noches </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 5 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Secrets Huatulco <span class="resortId">#C862</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Huatulco, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="C862_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/C563E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">2 noches </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 5 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Dreams Huatulco <span class="resortId">#C563</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Huatulco, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="C563_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/DP87E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">2 noches </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 5 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Dreams Acapulco <span class="resortId">#DP87</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Acapulco, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="DP87_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/DD14E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">2 noches </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 5 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Dreams Playa Bonita Panama <span class="resortId">#DD14</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Panamá, Panamá</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="DD14_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/DP90E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">2 noches </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 5 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Now Emerald <span class="resortId">#DP90</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Cancún, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="DP90_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/C588E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">2 noches </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 5 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Zoetry Paraiso de la Bonita <span class="resortId">#C588</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Puerto Morelos, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="C588_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/DV75E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">2 noches </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 5 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Secrets Riveria Cancún <span class="resortId">#DV75</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Puerto Morelos, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="DV75_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/DP96E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">1 noche </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 6 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Sunscape Akumal <span class="resortId">#DP96</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Akumal, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="DP96_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/C583E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">1 noche </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 6 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Dreams Tulum <span class="resortId">#C583</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Tulum, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="C583_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/C589E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">1 noche </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 6 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Dreams Aventuras <span class="resortId">#C589</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Puerto Aventuras, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="C589_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/C587E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">1 noche </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 6 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Dreams Riviera Cancun <span class="resortId">#C587</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Puerto Morelos, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="C587_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/C593E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">1 noche </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 6 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Dreams Jade <span class="resortId">#C593</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Puerto Morelos, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="C593_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/C592E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">1 noche </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 6 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Dreams Sapphire <span class="resortId">#C592</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Puerto Morelos, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="C592_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/C553E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">1 noche </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 6 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Dreams Palm Beach <span class="resortId">#C553</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Punta Cana, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="C553_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/DE02E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">1 noche </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 6 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Dreams Dominicus <span class="resortId">#DE02</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">La Romana, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="DE02_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/DD96E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">1 noche </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 6 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Sunscape Puerto Plata <span class="resortId">#DD96</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Puerto Plata, República Dominicana</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="DD96_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/DW66E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">1 noche </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 6 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Dreams Bahia Mita <span class="resortId">#DW66</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Bahía de Banderas, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="DW66_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/D525E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">1 noche </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 6 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Secrets Puerto Los Cabos <span class="resortId">#D525</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">San Jose del Cabo, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="D525_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/C590E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">1 noche </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 6 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Dreams Los Cabo <span class="resortId">#C590</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">San Jose del Cabo, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="C590_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/DD08E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">1 noche </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 6 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Sunscape Puerto Vallarta <span class="resortId">#DD08</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Puerto Vallarta, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="DD08_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/C864E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">1 noche </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 6 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Sunscape Dorado Ixtapa <span class="resortId">#C864</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Ixtapa, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="C864_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/DR67E01L.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">1 noche </span>
+                    <h5 class="card-title px-3 py-2">Gratis al pagar 6 noches en plan todo incluido.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Dreams Curacao <span class="resortId">#DR67</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Willemstad, Curacao</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="DR67_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="tab-pane" id="ai" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="container py-3">
+              <!-- ************ DESCUENTOS *********** -->
+              <!-- nombre de la oferta -->
+              <h3 class="display-6">Descuentos</h3>
+              <!--fin nombre de la oferta -->
+              <div class="row mt-5">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="assets/imgs/col1.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">ATE 40% OFF</span>
+                    <h5 class="card-title px-3 py-2">nas tarifas do Programa Tudo Incluído.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Senator Puerto Plata Spa Resort <span class="resortId">#DO05</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">PUERTO PLATA, República Dominicana</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <button class="btn btn-red" type="button">conseguir oferta</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3">
+                  <div class="card">
+                    <img src="assets/imgs/col2.jpg" class="card-img-top" alt="...">
+                    <h5 class="card-title px-3 py-2">Card title</h5> Lorem ipsum dolor sit amet, <i data-tooltip="Top Tip" class="top">Demo - Top</i> consectetur adipiscing elit. <i data-tooltip="Bottom Tip" class="bottom">Demo - Bottom</i> Ut fringilla placerat accumsan. <i data-tooltip="Left Tip" class="left">Demo - Left</i> Maecenas elit dui, consectetur nec justo id, accumsan vestibulum mi. <i data-tooltip="Right Tip" class="right">Demo - Right</i>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3">
+                  <div class="card">
+                    <img src="assets/imgs/col3.jpg" class="card-img-top" alt="...">
+                    <h5 class="card-title px-2 py-2">Card title</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="kids" role="tabpanel" aria-labelledby="messages-tab">
+            <div class="container py-3">
+              <!-- ************ NIÑOS GRATIS *********** -->
+              <!-- nombre de la oferta -->
+              <h3 class="display-6">Niños gratis</h3>
+              <!--fin nombre de la oferta -->
+              <div class="row mt-5">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="assets/imgs/col1.jpg" class="card-img-top" alt="...">
+                    <span class="offername px-2 mt-2 mx-2">ATE 40% OFF</span>
+                    <h5 class="card-title px-3 py-2">nas tarifas do Programa Tudo Incluído.</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Senator Puerto Plata Spa Resort <span class="resortId">#DO05</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">PUERTO PLATA, República Dominicana</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <button class="btn btn-red" type="button">conseguir oferta</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3">
+                  <div class="card">
+                    <img src="assets/imgs/col2.jpg" class="card-img-top" alt="...">
+                    <h5 class="card-title px-3 py-2">Card title</h5> Lorem ipsum dolor sit amet, <i data-tooltip="Top Tip" class="top">Demo - Top</i> consectetur adipiscing elit. <i data-tooltip="Bottom Tip" class="bottom">Demo - Bottom</i> Ut fringilla placerat accumsan. <i data-tooltip="Left Tip" class="left">Demo - Left</i> Maecenas elit dui, consectetur nec justo id, accumsan vestibulum mi. <i data-tooltip="Right Tip" class="right">Demo - Right</i>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3">
+                  <div class="card">
+                    <img src="assets/imgs/col3.jpg" class="card-img-top" alt="...">
+                    <h5 class="card-title px-2 py-2">Card title</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="credits" role="tabpanel" aria-labelledby="settings-tab">
+            <div class="container py-3">
+              <!-- ************ RESORT CREDITS *********** -->
+              <!-- nombre de la oferta -->
+              <h3 class="display-6">Resort Credits</h3>
+              <!--fin nombre de la oferta -->
+              <div class="row mt-5">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/4385E01L.jpg" class="card-img-top" alt="...">
+                    <h5 class="card-title px-3 py-2">Obtén $200 Resort Credits</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Crown Paradise Golden <span class="resortId">#4385</span>
+                      <br>
+                      <br>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Puerto Vallarta, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="4385_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/2459E01L.jpg" class="card-img-top" alt="...">
+                    <h5 class="card-title px-3 py-2">Obtén $200 Resort Credits</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Golden Shores & Crown Paradise Cancun <span class="resortId">#2459</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Cancún, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="2459_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/2036E01L.jpg" class="card-img-top" alt="...">
+                    <!--<span class="offername px-2 mt-2 mx-2">2 noches gratis</span>-->
+                    <h5 class="card-title px-3 py-2">Obtén $200 Resort Credits</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Golden Shores and Crown Paradise Club Puerto Vallarta <span class="resortId">#2036</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Puerto Vallarta, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="2036_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/1734E03L.jpg" class="card-img-top" alt="...">
+                    <!--<span class="offername px-2 mt-2 mx-2">2 noches gratis</span>-->
+                    <h5 class="card-title px-3 py-2">Recibe $200 en Resort Credits</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Pacifica Golf <span class="resortId">#1734</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Ixtapa, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="1734_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/0965E01L.jpg" class="card-img-top" alt="...">
+                    <!--<span class="offername px-2 mt-2 mx-2">2 noches gratis</span>-->
+                    <h5 class="card-title px-3 py-2">Recibe $200 en Resort Credits</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Pacifica Club <span class="resortId">#0965</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Ixtapa, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="0965_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/8573E01L.jpg" class="card-img-top" alt="...">
+                    <!--<span class="offername px-2 mt-2 mx-2">2 noches gratis</span>-->
+                    <h5 class="card-title px-3 py-2">Obtén $200 en Resort Credits</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Casa Velas <span class="resortId">#8573</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Puerto Vallarta, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="8573_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/6708E01L.jpg" class="card-img-top" alt="...">
+                    <!--<span class="offername px-2 mt-2 mx-2">2 noches gratis</span>-->
+                    <h5 class="card-title px-3 py-2">Obtén $200 en Resort Credits</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Grand Velas Riviera Nayarit <span class="resortId">#6708</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Nuevo Vallarta, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="6708_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400" data-aos-offset="0">
+                  <div class="card">
+                    <img src="https://www.rci.com/static/Resorts/Assets/2688E01L.jpg" class="card-img-top" alt="...">
+                    <!--<span class="offername px-2 mt-2 mx-2">2 noches gratis</span>-->
+                    <h5 class="card-title px-3 py-2">Recibe $300 Resort Credits</h5>
+                    <div class="px-2">
+                      <i class="fa-solid fa-hotel iconIndicator px-2" title="Resort"></i>Club Velas <span class="resortId">#2688</span>
+                    </div>
+                    <div class="px-2">
+                      <p>
+                        <i class="fas fa-map-marked-alt iconIndicator px-2" title="Ubicación"></i>
+                        <i data-tooltip="Ubicación" class="top">Puerto Vallarta, México</i>
+                      </p>
+                    </div>
+                    <div class="d-grid gap-2 d-md-block py-2 px-2">
+                      <a href="2688_es.html">
+                        <button class="btn btn-red" type="button">conseguir oferta</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <section id="footer">
-        <!-- Footer -->
-        <footer class="text-center text-lg-start bg-light text-muted">
-            <!-- Section: Social media -->
-            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-                <!-- Left -->
-                <div class="me-5 d-none d-lg-block">
-                    <span>Continúa en contacto con nosotros:</span>
-                </div>
-                <!-- Left -->
-
-                <!-- Right -->
-                <div>
-                    <a href="https://www.facebook.com/RCILatinoamerica" class="me-4 socialIcons">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-
-                    <a href="https://instagram.com/rcilatinoamerica?igshid=YzAyZWRlMzg=" class="me-4 socialIcons">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="#" class="me-4 socialIcons">
-                        <i class="fa-brands fa-tiktok"></i>
-                    </a>
-                </div>
-                <!-- Right -->
-            </section>
-            <!-- Section: Social media -->
-
-            <!-- Section: Links  -->
-            <section class="">
-                <div class="container text-center text-md-start mt-5">
-                    <!-- Grid row -->
-                    <div class="row mt-3">
-                        <!-- Grid column -->
-                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                            <!-- Content -->
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                <img src="assets/imgs/RCI Logo.svg" alt="" width="100">
-                            </h6>
-                        </div>
-                        <!-- Grid column -->
-
-                        <!-- Grid column -->
-                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4 footerTitles">
-                                Ayuda
-                            </h6>
-                            <p>
-                                <a href="https://support.rci.com/hc/es-mx?track1=Footer_Prelogin&track2=Ayuda&track3=Secci%C3%B3n"
-                                    class="text-reset">Secci&oacute;n de Ayuda</a>
-                            </p>
-                            <p>
-                                <a href="https://support.rci.com/hc/es-mx/sections/360004424651-FORMULARIOS?track1=Footer_Prelogin&track2=Ayuda&track3=Formularios"
-                                    class="text-reset">Formularios</a>
-                            </p>
-                            <p>
-                                <a href="https://www.rci.com/pre-rci-es_MX/footer/contactenos.page?track1=Footer_Prelogin&track2=Ayuda&track3=Contacto"
-                                    class="text-reset">Contacto</a>
-                            </p>
-                            <p>
-                                Usamos cookies para poder darte una mejor experiencia al visitar nuestro sitio, al
-                                continuar utiliz&aacute;ndolo est&aacute;s dando consentimiento a nuestro uso de
-                                &eacute;stas. Para saber m&aacute;s sobre c&oacute;mo utilizamos las cookies y
-                                c&oacute;mo manejarlas visita nuestro Aviso de Privacidad.
-                            </p>
-
-                        </div>
-                        <!-- Grid column -->
-
-                        <!-- Grid column -->
-                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4 footerTitles">
-                                Recursos
-                            </h6>
-                            <p>
-                                <a href="https://www.rci.com/pre-rci-es_MX/footer/alerta-a-los-socios.page?track1=Footer_Prelogin&track2=Recursos&track3=Alerta"
-                                    class="text-reset">Alerta a Socios</a>
-                            </p>
-                            <p>
-                                <a href="https://www.rci.com/pre-rci-es_MX/footer/terminos-y-condiciones-de-su-membresia.page?track1=Footer_Prelogin&track2=Recursos&track3=Terminos"
-                                    class="text-reset">Términos y Condiciones</a>
-                            </p>
-                            <p>
-                                <a href="https://www.rci.com/static/docs/latam/footer/termino-condiciones-de-uso.pdf?track1=Footer_Prelogin&track2=Recursos&track3=Uso"
-                                    class="text-reset">Términos de Uso</a>
-                            </p>
-                            <p>
-                                <a href="https://www.rci.com/static/docs/latam/footer/aviso-de-privacidad-2021.pdf?track1=Footer_Prelogin&track2=Recursos&track3=Aviso"
-                                    class="text-reset">Aviso de Privacidad</a>
-                            </p>
-                            <p>
-                                <a href="http://rciaffiliates.com/latin-america/es/?track1=Footer_Prelogin&track2=Recursos&track3=Info"
-                                    class="text-reset">Información para Resorts</a>
-                            </p>
-                        </div>
-                        <!-- Grid column -->
-
-                        <!-- Grid column -->
-                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4 footerTitles">
-                                CON&Eacute;CTATE CON NOSOTROS
-                            </h6>
-                            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
-                            <p>
-                                <i class="fas fa-envelope me-3"></i>
-                                info@example.com
-                            </p>
-                            <p><i class="fas fa-phone me-3"></i> Llamando desde M&eacute;xico Weeks: 55 5283 1111</p>
-                            <p><i class="fas fa-phone me-3"></i> Llamando desde Argentina Weeks: 0800 666 2724</p>
-                            <p><i class="fas fa-phone me-3"></i> Llamando desde Colombia: 01800 754 1660</p>
-
-                        </div>
-                        <!-- Grid column -->
-                    </div>
-                    <!-- Grid row -->
-                </div>
-            </section>
-            <!-- Section: Links  -->
-
-            <!-- Copyright -->
-            <div class="text-center p-4 copyRight" style="background-color: rgba(0, 0, 0, 0.05);">
-                Todo el material publicado en esta p&aacute;gina es propiedad de RCI LATINOAMERICA S.A. Todos los
-                derechos reservados. Sitio Web propiedad controlada y operada por RCI, LLC.<br>
-                &copy;<span id="year"></span> RCI Copyright
+      <!-- Footer -->
+      <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Continúa en contacto con nosotros:</span>
+          </div>
+          <!-- Left -->
+          <!-- Right -->
+          <div>
+            <a href="https://www.facebook.com/RCILatinoamerica" class="me-4 socialIcons">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://instagram.com/rcilatinoamerica?igshid=YzAyZWRlMzg=" class="me-4 socialIcons">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="me-4 socialIcons">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <img src="assets/imgs/RCI Logo.svg" alt="" width="100">
+                </h6>
+              </div>
+              <!-- Grid column -->
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4 footerTitles"> Ayuda </h6>
+                <p>
+                  <a href="https://support.rci.com/hc/es-mx?track1=Footer_Prelogin&track2=Ayuda&track3=Secci%C3%B3n" class="text-reset">Secci&oacute;n de Ayuda</a>
+                </p>
+                <p>
+                  <a href="https://support.rci.com/hc/es-mx/sections/360004424651-FORMULARIOS?track1=Footer_Prelogin&track2=Ayuda&track3=Formularios" class="text-reset">Formularios</a>
+                </p>
+                <p>
+                  <a href="https://www.rci.com/pre-rci-es_MX/footer/contactenos.page?track1=Footer_Prelogin&track2=Ayuda&track3=Contacto" class="text-reset">Contacto</a>
+                </p>
+                <p> Usamos cookies para poder darte una mejor experiencia al visitar nuestro sitio, al continuar utiliz&aacute;ndolo est&aacute;s dando consentimiento a nuestro uso de &eacute;stas. Para saber m&aacute;s sobre c&oacute;mo utilizamos las cookies y c&oacute;mo manejarlas visita nuestro Aviso de Privacidad. </p>
+              </div>
+              <!-- Grid column -->
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4 footerTitles"> Recursos </h6>
+                <p>
+                  <a href="https://www.rci.com/pre-rci-es_MX/footer/alerta-a-los-socios.page?track1=Footer_Prelogin&track2=Recursos&track3=Alerta" class="text-reset">Alerta a Socios</a>
+                </p>
+                <p>
+                  <a href="https://www.rci.com/pre-rci-es_MX/footer/terminos-y-condiciones-de-su-membresia.page?track1=Footer_Prelogin&track2=Recursos&track3=Terminos" class="text-reset">Términos y Condiciones</a>
+                </p>
+                <p>
+                  <a href="https://www.rci.com/static/docs/latam/footer/termino-condiciones-de-uso.pdf?track1=Footer_Prelogin&track2=Recursos&track3=Uso" class="text-reset">Términos de Uso</a>
+                </p>
+                <p>
+                  <a href="https://www.rci.com/static/docs/latam/footer/aviso-de-privacidad-2021.pdf?track1=Footer_Prelogin&track2=Recursos&track3=Aviso" class="text-reset">Aviso de Privacidad</a>
+                </p>
+                <p>
+                  <a href="http://rciaffiliates.com/latin-america/es/?track1=Footer_Prelogin&track2=Recursos&track3=Info" class="text-reset">Información para Resorts</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4 footerTitles"> CON&Eacute;CTATE CON NOSOTROS </h6>
+                <p>
+                  <i class="fas fa-home me-3"></i> New York, NY 10012, US
+                </p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i> info@example.com
+                </p>
+                <p>
+                  <i class="fas fa-phone me-3"></i> Llamando desde M&eacute;xico Weeks: 55 5283 1111
+                </p>
+                <p>
+                  <i class="fas fa-phone me-3"></i> Llamando desde Argentina Weeks: 0800 666 2724
+                </p>
+                <p>
+                  <i class="fas fa-phone me-3"></i> Llamando desde Colombia: 01800 754 1660
+                </p>
+              </div>
+              <!-- Grid column -->
             </div>
-            <!-- Copyright -->
-        </footer>
-        <!-- Footer -->
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+        <!-- Copyright -->
+        <div class="text-center p-4 copyRight" style="background-color: rgba(0, 0, 0, 0.05);"> Todo el material publicado en esta p&aacute;gina es propiedad de RCI LATINOAMERICA S.A. Todos los derechos reservados. Sitio Web propiedad controlada y operada por RCI, LLC. <br> &copy; <span id="year"></span> RCI Copyright </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
     </section>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script>
-        var triggerTabList = [].slice.call(document.querySelectorAll('#myTab a'))
-        triggerTabList.forEach(function (triggerEl) {
-            var tabTrigger = new bootstrap.Tab(triggerEl)
-
-            triggerEl.addEventListener('click', function (event) {
-                event.preventDefault()
-                tabTrigger.show()
-            })
+      var triggerTabList = [].slice.call(document.querySelectorAll('#myTab a'))
+      triggerTabList.forEach(function(triggerEl) {
+        var tabTrigger = new bootstrap.Tab(triggerEl)
+        triggerEl.addEventListener('click', function(event) {
+          event.preventDefault()
+          tabTrigger.show()
         })
+      })
     </script>
     <script>
-        AOS.init();
+      AOS.init();
     </script>
     <script>
-        document.getElementById("year").innerHTML = new Date().getFullYear();
+      document.getElementById("year").innerHTML = new Date().getFullYear();
     </script>
     <script>
-        //Get the button
-        var mybutton = document.getElementById("myBtn");
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+      // When the user scrolls down 500px from the top of the document, show the button
+      window.onscroll = function() {
+        scrollFunction()
+      };
 
-        // When the user scrolls down 500px from the top of the document, show the button
-        window.onscroll = function () { scrollFunction() };
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
+      function scrollFunction() {
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
         }
-
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
+      }
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
     </script>
-</body>
-
+  </body>
 </html>
